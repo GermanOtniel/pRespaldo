@@ -1,0 +1,69 @@
+.app{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-size: 100%;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/filetest-210500.appspot.com/o/testing%2Fwallpapaer%20navidad.jpg?alt=media&token=23259b2c-7cd8-44e5-af33-23e42d7f9cf0')
+}
+.login2 {
+  text-align: center;
+  display: flex;
+}
+
+.botonGoogleLogin{
+  background-color: rgb(214, 6, 6);
+  border-radius: 10%;
+  width: 200px;
+  height: 40px;
+  color: white;
+  margin-top: 5%
+}
+.contraseñaOlvidada{
+  font-size: 0.8rem;
+  color: rgb(61, 145, 255)
+}
+
+
+/* segundo Login */
+
+
+.paper3 {
+  width: 75vw;
+  margin: 26% auto;
+  text-align: center;
+}
+.linkReg{
+  text-decoration: none;
+}
+
+.paperSignup{
+  width: 35vw;
+  margin: auto;
+  text-align: center;
+  margin-top: 4%
+}
+.contraseñaOlvidada{
+  font-size: 0.8rem;
+  color: rgb(61, 145, 255)
+}
+
+.registrate{
+  font-size: .9rem;
+  color: rgb(8, 13, 19);
+  margin-top: -2%
+}
+
+.botonIngresar{
+  width: 50%
+}
+
+.imgLogin{
+  margin-top: 3%;
+  width: 80%;
+  height: 100%;
+}
+.dialogScroll{
+  -webkit-overflow-scrolling: touch;
+  min-height: 50vh !important;
+  max-height: 50vh !important;
+}

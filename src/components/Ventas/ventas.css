@@ -1,0 +1,42 @@
+.bloques{
+  width:100%;
+  height:auto; 
+  padding: .15rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.buttonVentas > button {
+  background-color: rgb(0, 121, 10);
+  color: white;
+  float: right;
+  margin-top: -17%
+}
+/* .ventas > p {
+  background-color: tomato;
+  font-size: 1.5rem;
+  margin-bottom: 0%
+} */
+.bigVentas{
+  background-color: yellow
+}
+.hrVentas{
+  height: 6px;
+  background-color: #546E7a;
+}
+
+.paperVentas{
+  height: auto;
+  width: 92vw;
+  margin: auto;
+}
+.ache6{
+  color: rgb(2, 3, 92);
+  font-weight: bolder;
+  text-decoration: underline
+}
+.noVentas{
+  background-color: #546E7a;
+  color: white;
+  text-align: center;
+  margin: 10% auto 
+}

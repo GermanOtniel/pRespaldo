@@ -1,0 +1,35 @@
+.largo{
+  height: 100vh;
+}
+
+.dinamicDetailHijo{
+  float: left;
+}
+.bSubtitle{
+  background-color: yellow;
+  color: slategray
+}
+.subrayadoImagen{
+  background-color: rgb(255, 255, 130);
+  color: black
+}
+.noVentasRed{
+  background-color: rgb(129, 0, 0);
+  color: white;
+  text-align: center;
+  margin: 10% auto 
+}
+.puntajePorDinamica{
+  text-align: center;
+}
+.chipsVetas{
+  text-align: left;
+}
+.sendEvidencia{
+  background-color: #00897B;
+  color:white;
+  font-size: 1rem
+}
+.h5EnviarEvi{
+  margin-top: 3%
+}

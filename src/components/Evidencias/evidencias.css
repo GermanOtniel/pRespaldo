@@ -1,0 +1,12 @@
+.evidenciaStatus{
+  color: white;
+  background-color: rgb(136, 0, 0)
+}
+.mensajes{
+  font-size: 2.2rem;
+  background-color: #546E7A;
+  color: white
+}
+.fechaEvidenciaRechazada{
+  font-size: .8rem
+}

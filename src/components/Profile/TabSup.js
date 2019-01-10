@@ -208,7 +208,7 @@ class TabSup extends Component{
           </div> 
           <div > 
             <div>
-            <RaisedButton onClick={this.academiaTeacheable} href="https://15onzas.teachable.com/" style={{height:50,marginTop:3}} labelColor="#FAFAFA"	 backgroundColor="#546E7A" label="ACADEMIA 1.5" fullWidth={true} ></RaisedButton>
+            <RaisedButton onClick={this.academiaTeacheable} href="https://15onzas.teachable.com/" target="_blank" style={{height:50,marginTop:3}} labelColor="#FAFAFA"	 backgroundColor="#546E7A" label="ACADEMIA 1.5" fullWidth={true} ></RaisedButton>
             </div> 
           </div> 
           <div > 

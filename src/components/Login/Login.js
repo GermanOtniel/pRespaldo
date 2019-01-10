@@ -31,7 +31,7 @@ class Login extends Component {
   // lo que se hace es ver si hay un usuario guardado en el local storage, si si usamos esos datos para autocompletar 
   // el usuario y la contraseña para que el usuario no tenga necesidad de escribir nuevamente su contrasseña y correo
   componentWillMount(){
-    console.log('MENSAJES!!!')
+    console.log('MIXPANEL Y HACER HTTPS!!!')
     let usuarioGuardado;
     let hayUsuario = `${JSON.parse(localStorage.getItem('userLogged'))}`;
     if ( hayUsuario === "null" ){
@@ -108,6 +108,7 @@ handleClose4 = () => {
     e.preventDefault();
     login(this.state.newUser)
     .then(user=>{
+      console.log(user)
       this.props.history.push(`/profile/${user._id}`);
       Mixpanel.track('Login Email & Password');
     })
@@ -138,7 +139,7 @@ handleClose4 = () => {
               Mixpanel.track('Fail login with G');
             }
             else{
-            this.props.history.push(`/profile/${user._id}`);
+            this.props.history.push(`/profile/${r._id}`);
             Mixpanel.track('Login with G');
             }
       })

@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import Paper from 'material-ui/Paper';
-import {signup} from '../../services/auth';
+import {signup,googleUser} from '../../services/auth';
 import { Link } from 'react-router-dom';
 import Dialog from 'material-ui/Dialog';
 import {RadioButton, RadioButtonGroup} from 'material-ui/RadioButton';
 import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
 import { GoogleLogin } from 'react-google-login';
-import { googleUser } from '../../services/auth';
 import './signup.css'
 
 const customContentStyle = {
@@ -311,7 +310,7 @@ class Signup extends Component {
 
 Inicio de vigencia: 1º de Marzo 2018<br/><br/>
 
-15 Onzas Inteligencia tras la barra SAPI de CV, con domicilio en Oaxaca 96 int E04 Colonia Roma, Delegación Cuauhtémoc, CP. 06700 en la Ciudad de México es el responsable del tratamiento de sus datos personales, del uso que se da a los mismos y de su protección. Este Aviso provee información relevante para: (i)  las personas que visitan nuestro sitio web localizado en http://1puntocinco.com (el "Sitio Web"), incluyendo aquellas que se registran para recibir alguno de los servicios que ofrece el Sitio Web y; (ii) para  los clientes que descargan alguna de nuestras aplicaciones móviles y que nos proporcionan sus datos personales para alguna finalidad (a los usuarios y visitantes de nuestro Sitio web y a nuestros clientes en aplicación móvil se les denominará conjuntamente los "clientes" o "usted"). El presente Aviso detalla la forma en que 1puntocinco,  sus afiliadas y subsidiarias  (todos los anteriores, conjuntamente “1puntocinco” o "nosotros") utilizan sus datos personales y sobre los derechos que usted tiene. Por favor tómese un minuto para revisar esta información.
+15 Onzas Inteligencia tras la barra SAPI de CV, con domicilio en Oaxaca 96 int E04 Colonia Roma, Delegación Cuauhtémoc, CP. 06700 en la Ciudad de México es el responsable del tratamiento de sus datos personales, del uso que se da a los mismos y de su protección. Este Aviso provee información relevante para: (i)  las personas que visitan nuestro sitio web localizado en https://1puntocinco.com (el "Sitio Web"), incluyendo aquellas que se registran para recibir alguno de los servicios que ofrece el Sitio Web y; (ii) para  los clientes que descargan alguna de nuestras aplicaciones móviles y que nos proporcionan sus datos personales para alguna finalidad (a los usuarios y visitantes de nuestro Sitio web y a nuestros clientes en aplicación móvil se les denominará conjuntamente los "clientes" o "usted"). El presente Aviso detalla la forma en que 1puntocinco,  sus afiliadas y subsidiarias  (todos los anteriores, conjuntamente “1puntocinco” o "nosotros") utilizan sus datos personales y sobre los derechos que usted tiene. Por favor tómese un minuto para revisar esta información.
 <br/><br/>
 1. ¿Qué datos personales obtenemos de usted?<br/>
 Para las finalidades establecidas en este Aviso de Privacidad, 1puntocinco obtendrá de los clientes que utilicen nuestro Sitio Web y de aquellos que voluntariamente nos los proporcionen en nuestras aplicaciones móviles los siguientes datos personales:
@@ -387,7 +386,7 @@ PRIVACY NOTICE
 <br/>
 Effective date: March 1st 2018
 <br/>
-15 Onzas Inteligencia tras la barra SAPI de CV, domiciled at Oaxaca 96 int E04 Colonia Roma, Delegación Cuauhtémoc, CP. 06700 en la Ciudad de México, is the data controller with regard to the processing of your personal data and the protection of such data. This Notice provides relevant information for: (i) people who visit our website located at http://1puntocinco.com (the "Website"), including all people who subscribe to any of our services offered at the Website and; (ii) customers who download our mobile applications and provide us with their personal data for any purposes (our Website's users and visitors and our mobile application customers will be defined jointly as "customers" or "you"). This Notice details how 1puntocinco, its affiliates and subsidiaries (collectively "1puntocinco" or "us") use your personal data and the rights you are entitled to. Please take a minute to review this information.
+15 Onzas Inteligencia tras la barra SAPI de CV, domiciled at Oaxaca 96 int E04 Colonia Roma, Delegación Cuauhtémoc, CP. 06700 en la Ciudad de México, is the data controller with regard to the processing of your personal data and the protection of such data. This Notice provides relevant information for: (i) people who visit our website located at https://1puntocinco.com (the "Website"), including all people who subscribe to any of our services offered at the Website and; (ii) customers who download our mobile applications and provide us with their personal data for any purposes (our Website's users and visitors and our mobile application customers will be defined jointly as "customers" or "you"). This Notice details how 1puntocinco, its affiliates and subsidiaries (collectively "1puntocinco" or "us") use your personal data and the rights you are entitled to. Please take a minute to review this information.
 <br/>
 1. What personal data do we obtain from you?<br/>
 For the purposes set out in this Privacy Notice, 1puntocinco will obtain from the customers who use our Website and from those who voluntarily provide our mobile application the following personal data:

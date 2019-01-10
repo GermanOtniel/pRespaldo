@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "filetest-210500"
+  },
+  "targets": {
+    "filetest-210500": {
+      "hosting": {
+        "app": [
+          "app1puntocinco"
+        ]
+      }
+    }
+  }
+}

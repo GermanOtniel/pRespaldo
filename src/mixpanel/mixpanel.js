@@ -1,7 +1,7 @@
 import mixpanel from 'mixpanel-browser';
-mixpanel.init('2eb0765105490cec01c7f918030ce643');
+mixpanel.init('0ae70a5faf08dad2dfc48040cb63f482');
 
-let env_check = false;
+let env_check = true;
 
 let actions = {
   identify: (id) => {

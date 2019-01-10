@@ -49,7 +49,7 @@ class Profile extends Component{
     if(user.cuentaConfirmada === false && user.correoEnviado === false){
       let bodyMessage = {
         dest: `${JSON.parse(localStorage.getItem('user')).correo}`,
-        sitio: "http://verificacion.1puntocinco.com:3000/confirm/"
+        sitio: "https://dev-unopuntocinco.appspot.com/confirm/"
       }
       sendEmailConfirmation(bodyMessage,id)
       .then(r=>{
@@ -62,6 +62,7 @@ class Profile extends Component{
     }
     Mixpanel.identify(user._id);
     Mixpanel.people.set({
+      "$name":user.correo,
       "$id": user._id,
       "venue":user.centro,
       "nameUser":user.nombre + ' ' + user.apellido,
@@ -94,7 +95,7 @@ class Profile extends Component{
     const id = `${JSON.parse(localStorage.getItem('user'))._id}`;
     let bodyMessage = {
       dest: `${JSON.parse(localStorage.getItem('user')).correo}`,
-      sitio: "http://verificacion.1puntocinco.com:3000/confirm/"
+      sitio: "https://dev-unopuntocinco.appspot.com/confirm/"
     }
     sendEmailConfirmation(bodyMessage,id)
     .then(r=>{

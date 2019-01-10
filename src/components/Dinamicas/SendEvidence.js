@@ -221,7 +221,7 @@ class SendEvidence extends Component{
       this.handleOpen3();
       Mixpanel.track('Evidence created',{
         "dinamicEvidence":dinamic.nombreDinamica,
-        "dateEvidenceCreated": new Date(),
+        "dateEvidenceCreated": String(fecha).slice(0,15),
         "creator": nombre + espacio + apellido
       })
     })

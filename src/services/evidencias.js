@@ -1,7 +1,7 @@
 //production 
-//const baseURL = process.env.REACT_APP_BASE_URL;
+const baseURL = process.env.REACT_APP_BASE_URL;
 // development
-const baseURL = "http://localhost:3000"
+//const baseURL = "http://localhost:3000"
 
 export function createEvidence(evidence){
     return fetch(baseURL + '/evidencia/new', {
